@@ -1,0 +1,54 @@
+.social-share-dropdown {
+    position: relative;
+}
+
+.share-toggle {
+    cursor: pointer;
+    color: #0073aa;
+}
+
+.share-menu {
+    display: none;
+    border: 1px solid #ddd;
+    padding: 18px;
+    background: #f9f9f9;
+    position: absolute;
+    z-index: 1000;
+    width: 360px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 18px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons img {
+    width: 36px;
+    height: 36px;
+}
+
+.copy-url {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 18px;
+}
+
+.copy-url input {
+    width: 70%;
+    padding: 5px;
+}
+
+.copy-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+}
